@@ -159,9 +159,8 @@ input[type='tel'] {
   text-align: center;
   color: #545253;
   position: absolute;
-  top: -13px;
-  transform: translateX(calc(50% - 6px));
-  padding: 6px;
+  top: -8px;
+  transform: translateX(calc(60%));
 }
 
 .actual_info {
