@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+    <script
+      src="index.js"
+      defer
+    ></script>
+    <title>QuinStreet: Programming assessment</title>
+  </head>
+  <body>
+    <header class="page_header">
+      <img
+        src="./assets/Logo.png"
+        srcset="./assets/Logo@0.75x.png, ./assets/Logo@2x.png 2x"
+        alt="Header Logo"
+        width="171"
+        height="37"
+      />
+    </header>
+    <section class="body">
+      <div class="form_section">
+        <div class="form_header">
+          <label class="form_head_text">
+            Enter to win a 3rd generation Nest Learning Thermostat worth $249.
+          </label>
+        </div>
+        <form
+          class="form_components"
+          id="myForm"
+          action="https://formsws-hilstaging-com-0adj9wt8gzyq.runscope.net/solar"
+        >
+          <input
+            type="text"
+            id="name"
+            name="name"
+            class="input_box"
+            placeholder="Name"
+            required
+            minlength="2"
+          />
+          <div class="state_city">
+            <input
+              type="text"
+              id="city"
+              name="city"
+              class="input_box"
+              placeholder="City"
+            />
+            <input
+              type="text"
+              id="state"
+              name="state"
+              class="input_box"
+              placeholder="State"
+            />
+          </div>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            class="input_box"
+            required
+            placeholder="Phone Number"
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="input_box"
+            placeholder="Email Address"
+            required
+          />
+          <button
+            type="submit"
+            id="submit"
+            class="submit_button"
+          >
+            ENTER TO WIN
+          </button>
+        </form>
+      </div>
+      <div class="bottom_info">
+        <label class="heading_info">EVEN MORE SAVINGS</label>
+        <div class="actual_info">
+          <label class="color_text">ADVERTORIAL</label>
+          <label class="big_text"
+            >Tricks Homeowners Use to Eliminate Bills</label
+          >
+          <label class="desc_text"
+            >Surging energy bills, unpredictable weather patterns and
+            dissatisfaction with utility companies have homeowners scrambling…
+            <a
+              href="www.google.com"
+              class="read_more"
+              >READ MORE</a
+            ></label
+          >
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
